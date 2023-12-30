@@ -1,9 +1,3 @@
-# ProtonX Transformer
-
-
-<p align="center">
-    <img src='https://storage.googleapis.com/protonx-cloud-storage/transformer/protonx-transf.png' width=200 class="center">
-</p>
 
 Design Machine Translation Engine for Vietnamese using Transformer Architecture from paper [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf). Give us a star if you like this repo.
 
