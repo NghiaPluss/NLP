@@ -6,10 +6,6 @@ Model Explanation:
     - Transformer Encoder: Check out [here](https://drive.google.com/file/d/182rTpgUdTjDgw4LrAM6ah2B_Iw_4rXQW/view?usp=sharing)
     - Transformer Decoder (Updating)
 
-Author:
-- Github: bangoc123
-- Email: protonxai@gmail.com
-
 This library belongs to our project: [Papers-Videos-Code](https://docs.google.com/document/d/1bjmwsYFafizRXlZyJFazd5Jcr3tqpWSiHLvfllWRQBc/edit?usp=sharing) where we will implement AI SOTA papers and publish all source code. Additionally, videos to explain these models will be uploaded to [ProtonX Youtube](https://www.youtube.com/c/ProtonX/videos) channels.
 
 
@@ -51,9 +47,6 @@ Training script:
 ```bash
 python train.py --epochs ${epochs} --input-lang en --target-lang vi --input-path ${path_to_en_text_file} --target-path ${path_to_vi_text_file}
 ```
-
-Example: You want to build English-Vietnamese machine translation in 10 epochs
-
 
 ```bash
 python train.py --epochs 10 --input-lang en --target-lang vi --input-path ./data/mock/train.en --target-path ./data/mock/train.vi
